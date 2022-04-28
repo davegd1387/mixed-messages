@@ -1,0 +1,58 @@
+     html {
+         margin: 0;
+         font-size: 16px;
+     }
+     
+     body {
+         width: 95%;
+         background-color: green;
+         font-family: "Coiny", sans-serif;
+         color: white;
+     }
+     
+     h1 {
+         font-size: 5rem;
+         color: black;
+         box-sizing: border-box;
+         background-color: white;
+         border-radius: 50%;
+         width: 50%;
+         height: 50%;
+         text-align: center;
+         align-content: center;
+     }
+     
+     ul {
+         text-align: center;
+     }
+     
+     li {
+         font-size: 1.75rem;
+         text-align: left;
+     }
+     
+     #eightBallOuter {
+         position: relative;
+         display: flex;
+         justify-content: center;
+         box-sizing: border-box;
+         border-radius: 50%;
+         background-color: black;
+         width: 20vmin;
+         height: 20vmin;
+     }
+     
+     @media only screen and (max-width: 700px) {
+         html {
+             font-size: 9px;
+         }
+         .about-me-container {
+             flex-direction: column;
+         }
+     }
+     
+     @media only screen and (max-width: 900px) and (min-width: 701px) {
+         html {
+             font-size: 12px;
+         }
+     }
