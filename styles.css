@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    width: 95%;
+    background-color: green;
+    font-family: "Coiny", sans-serif;
+    color: white;
+}
+
+#outer {
+    width: 16rem;
+    /* You can define it by % also */
+    height: 16rem;
+    /* You can define it by % also */
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    top: 25%;
+    left: 25%;
+    /* of the container */
+    width: 50%;
+    /* of the container */
+    height: 50%;
+    /* of the container */
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    font-size: 1.75rem;
+    text-align: left;
+}
